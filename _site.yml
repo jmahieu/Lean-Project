@@ -1,0 +1,29 @@
+---
+navbar:
+  title: "Lean Project"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Background & Aim"
+      href: background-aim.html
+    - text: "Step 1: Getting Started"
+      href: getting-started.html
+    - text: "Step 2: Problem"
+      href: customer-discovery.html
+    - text: "Step 3: Value Proposition"
+    - text: "Step 4: Product-Market Fit"
+      href: product-market-fit.html
+    - text: "Step 5: Costs and Revenues"
+      href: costs-revenues.html
+    - text: "FAQ"
+      href: faq.html
+
+output:
+  html_document:
+    theme: cosmo
+
+---
+
+
+
+

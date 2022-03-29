@@ -1,0 +1,10 @@
+---
+title: "Lean Project"
+author:
+  - name: Jeroen Mahieu
+affiliation: Vrije Universiteit Amsterdam
+---
+
+Welcome! On this website you can find all the information regarding the Lean Project assignment. Start by reading the "Background & Aim" page, after which you can go to "Step 1: Customer Discovery". All the materials (readings, videos) are listed on the "Materials" page. 
+
+If you have any questions, please reach out to <jeroen.mahieu@vu.nl>
