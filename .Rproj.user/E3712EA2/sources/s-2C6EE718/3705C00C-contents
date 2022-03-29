@@ -11,6 +11,7 @@ navbar:
     - text: "Step 2: Problem"
       href: customer-discovery.html
     - text: "Step 3: Value Proposition"
+      href: value-proposition.html
     - text: "Step 4: Product-Market Fit"
       href: product-market-fit.html
     - text: "Step 5: Costs and Revenues"

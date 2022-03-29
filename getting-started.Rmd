@@ -1,0 +1,35 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+You now know that the main tasks of startups is to look for a sustainable and scalable business model. This is what you will be doing with a team of other students. Essentially you will form a startup for the next weeks. 
+
+## A. The Toolbox
+
+To achieve the goal of the assignment, you will rely on a mix of tools that have been proven to be very successful in finding out how to create and capture value under conditions of extreme uncertainty and limited resources. In particular, you are going to rely on a mix of Customer Development, Lean Startup, and Agile Development tools. It is very important that you first understand what these tools are and how you can use them. Therefore, you need to go through the following readings: 
+
+1. [Running Lean - Introduction](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+1. [Running Lean - Part 1: Roadmap](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+1. [The Lean Product Playbook - Introduction](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
+1. [The Lean Product Playbook - Chapter 1: Achieving Product-market Fit with the Lean Product Process](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
+
+The central piece of your assignment will be the ["Lean Canvas"](https://github.com/jmahieu/Lean-Project/raw/main/Lean-Canvas.pdf). You will use the Lean Canvas to visualize your business model. It's very important that you understand the meaning of the different aspects *before* you start working on the assignment. 
+
+## B. Get to Know Your Team
+Before you start working on the assignment, it's very important you take some time to get to know your teammates. In particular, once teams are formed, discuss the following topics with your teammates (**5 minutes** per team member):
+
+* What are your motivations regarding this course and the assignment? 
+* Who is "you"? 
+* Why would the other team members want to be in a team with you? What are your strengths? What are your weaknesses?
+
+## C. Create a Virtual Working Space
+
+Throughout the assignment, you will collect information, design different lean Canvases, make a prototype, slides for your pitch, ... It's very important you collect all these items in a shared virtual (cloud) working space, as you will have to submit these at the end of the assignment for evaluation. Think of a shared Google Drive, Dropbox, OneDrive, Mural, Miro, ... Make sure that the coach can get access to your working space!
+
+
+
+

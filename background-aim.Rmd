@@ -40,6 +40,12 @@ Let's break this down:
 
 * **Validated learning** -- Startups exist not just to make stuff, make money, or even serve customers. The exist to *learn* how to build a sustainable business. This learning can be validated scientifically by running frequent experiments that allow entrepreneurs to test each element of their vision. In particular, a major part of this assignment will require you to "get out of the building" and test your hypotheses with (potential) customers. 
 
+
+So, essentially:
+
+> A startup is a temporary organization designed to search for a sustainable and scalable business model
+
 ## Further Readings and Background Material
 * [Entrepreneurship: A Working Definition (Tom Eisenmann)](https://hbr.org/2013/01/what-is-entrepreneurship)
 * [No Business Plan Survives First Contact With Customers. 2 Minutes to See Why (Steve Blank)](https://www.youtube.com/watch?v=_eUoae9lHpY&list=PLda67x2O472eZ2kicfuZrliRc7QPd_kJB&index=40)
+* [What we know about startups (Steve Blank)](https://www.youtube.com/watch?v=GAzYdTUjDgQ&list=PLda67x2O472eZ2kicfuZrliRc7QPd_kJB&index=44)
