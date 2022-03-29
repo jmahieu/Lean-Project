@@ -1,0 +1,28 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Now that you know your team and have your working space set up, it's time to get started! The first step of the assignment will focus on testing and validating whether you have a problem worth solving.
+
+> Key question: Do I have a problem worth solving?
+
+The first stage is about determining whether you have a problem worth solving before investing a lot of effort into building a solution. While ideas are cheap, acting on them is quite expensive.
+
+A problem worth solving boils down to three questions:
+* Is it something customers want? (must-have)
+* Will they pay for it? If not, who will? (viable)
+* Can it be solved? (feasible)
+
+During this stage, we attempt to answer these questions using a combination of qualitative customer observation and interviewing techniques. From there you derive the minimum feature set to address the right set of problems, which is also known as the minimum viable product (MVP).
+
+## Preparation
+* Read [Running Lean - Chapter 3: Create Your Lean Canvas - ]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf))
+* Read 
+
+## A. Document Your Plan A
+
+As a first step, each team member *individually* draws a Lean Canvas based on the problem you want to solve. 
