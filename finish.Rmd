@@ -1,0 +1,41 @@
+---
+output: html_document
+---
+
+Congratulations! You managed to come up with a business model centered around a discipline-related innovation, starting from a problem and working towards a solution . Whether this business model will turn out to be sustainable and scalable (or even profitable) is a question that is impossible to answer at this point. Typically, it takes at least [2 years](https://davidcummings.org/2018/08/04/why-product-market-fit-often-takes-years/) to find this out. However, you have taken your first steps in the wonderful world of startups.
+
+To finish up your assignment, you need to create the final version of your Lean Canvas. There are two options:
+
+1. If your Solution Interview Learnings indicated that you are on the right track to achieve product-market fit, focus on the solution that you have developed
+
+1. If your Solution Interview Learnings indicated that something is wrong, sit together with your team and decide on what you believe should change. In other words, think of the next version of your Lean Canvas that you would like to test.
+
+## **Deliverables** 
+
+ Create a document in your workspace with the title "Final Plan" where you document the final version of your [Lean Canvas](https://github.com/jmahieu/Lean-Project/blob/main/lean-canvas.ppt?raw=true). Your Lean Canvas should contain the answers to the following questions: 
+ 
+ * Problem 
+ 
+ * Existing Alternatives 
+ 
+ * Solution 
+ 
+ * Unique Value Proposition 
+ 
+ * High-level concept 
+ 
+ * Unfair Advantage 
+ 
+ * Channels
+ 
+ * Customer Segments
+ 
+ * Early Adopters
+ 
+ * Cost Structure
+ 
+ * Revenue Streams
+ 
+
+Note that you do *not* have to fill in the "Key metrics" part. That is out of the scope of this assignment. 
+

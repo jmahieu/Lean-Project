@@ -10,14 +10,16 @@ navbar:
       href: getting-started.html
     - text: "Step 2: Problem"
       href: problem.html
-    - text: "Step 3: Value Proposition"
-      href: value-proposition.html
-    - text: "Step 4: Product-Market Fit"
-      href: product-market-fit.html
-    - text: "Step 5: Costs and Revenues"
-      href: costs-revenues.html
+    - text: "Step 3: Solution"
+      href: solution.html
+    - text: "Step 4: Finishing Things Up"
+      href: finish.html
+    - text: "Pitch"
+      href: pitch.html
     - text: "FAQ"
       href: faq.html
+    - text: "Materials"
+      href: materials.html
 
 output:
   html_document:
