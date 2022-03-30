@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>problem.knit</title>
+
+<script src="site_libs/header-attrs-2.12/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Lean Project</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="background-aim.html">Background &amp; Aim</a>
+</li>
+<li>
+  <a href="getting-started.html">Step 1: Getting Started</a>
+</li>
+<li>
+  <a href="problem.html">Step 2: Problem</a>
+</li>
+<li>
+  <a href="solution.html">Step 3: Solution</a>
+</li>
+<li>
+  <a href="finish.html">Step 4: Finishing Things Up</a>
+</li>
+<li>
+  <a href="pitch.html">Pitch</a>
+</li>
+<li>
+  <a href="faq.html">FAQ</a>
+</li>
+<li>
+  <a href="materials.html">Materials</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<p>Now that you know your team and have your working space set up, it’s
+time to get started! The first step of the assignment will focus on
+testing and validating whether you have a problem worth solving.</p>
+<blockquote>
+<p>Key question: Do I have a problem worth solving?</p>
+</blockquote>
+<p>The first stage is about determining whether you have a problem worth
+solving before investing a lot of effort into building a solution. While
+ideas are cheap, acting on them is quite expensive.</p>
+<p>A problem worth solving boils down to three questions:</p>
+<ul>
+<li>Is it something customers want? (must-have)</li>
+<li>Will they pay for it? If not, who will? (viable)</li>
+<li>Can it be solved? (feasible)</li>
+</ul>
+<p>During this stage, we attempt to answer these questions using a
+combination of qualitative customer observation and interviewing
+techniques. From there you derive the minimum feature set to address the
+right set of problems, which is also known as the minimum viable product
+(MVP).</p>
+<div id="preparation" class="section level2">
+<h2>Preparation</h2>
+<ul>
+<li><a
+href="https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf">The
+Lean Product Playbook - Chapter 3: Determine Your Target Customer (Step
+1)</a></li>
+<li><a
+href="https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf">Running
+Lean - Chapter 3: Create Your Lean Canvas</a></li>
+<li><a
+href="https://github.com/jmahieu/Lean-Project/raw/main/The%20Mom%20Test%20-%20Rob%20Fitzpatrick.pdf">The
+Mom Test - Chapter One</a></li>
+<li><a
+href="https://github.com/jmahieu/Lean-Project/raw/main/The%20Mom%20Test%20-%20Rob%20Fitzpatrick.pdf">The
+Mom Test - Chapter Two</a></li>
+<li><a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean - Chapter 6: Get Ready to Interview Customers</a></li>
+<li><a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean - Chapter 7: The Problem Interview</a></li>
+</ul>
+</div>
+<div id="a.-brainstorm-possible-customers" class="section level2">
+<h2>A. Brainstorm Possible Customers</h2>
+<p><em>Individually</em>, brainstorm about the list of possible target
+customers based on your initial idea. When thinking about potential
+initial customers, you want to focus on “innovators” and “early
+adopters” (see <a
+href="https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf">The
+Lean Product Playbook - Chapter 3: Determine Your Target Customer (Step
+1)</a> )</p>
+<div class="figure" style="text-align: center">
+<img src="figures/customer-types.jpg" alt="Customer segments" width="70%" />
+<p class="caption">
+Customer segments
+</p>
+</div>
+<div id="personas" class="section level3">
+<h3>Personas</h3>
+<p>For each customer type, develop a customer persona. See pages 30-32
+of <a
+href="https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf">The
+Lean Product Playbook</a> on how to create customer personas. It is okay
+at this point that you cannot complete all the information.</p>
+<p>Afterwards, sit together with your team and compare the customer
+personas you came up with. <strong><em>Select 1 or maximum 2 customer
+personas that you believe are most promising</em></strong> . The most
+promising customers are those that likely want a solution to their
+problems/needs, will pay for it, and have a solvable problem.</p>
+</div>
+<div id="deliverables" class="section level3">
+<h3><strong>Deliverables</strong></h3>
+<ul>
+<li>Create a document in your workspace with the title “Customer
+Personas” with the information about your chosen customer
+personas(s)</li>
+</ul>
+</div>
+</div>
+<div id="b.-document-your-plan-a" class="section level2">
+<h2>B. Document Your Plan A</h2>
+<p>After creating and choosing your preferred customer persona(s), each
+team member <em>individually</em> draws a Lean Canvas based on your
+chosen customer personas. Follow the steps in <a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean - Chapter 3: Create Your Lean Canvas</a>. It is okay to leave some
+spaces blank. This should take no longer than 15 minutes.</p>
+<p>You can use this <a
+href="https://github.com/jmahieu/Lean-Project/blob/main/lean-canvas.ppt?raw=true">editable
+version of the Lean Canvas</a> in Powerpoint format</p>
+<p>Afterwards, compare all the canvases, and pick the one you like most
+as a team.</p>
+<div id="deliverables-1" class="section level3">
+<h3><strong>Deliverables</strong></h3>
+<ul>
+<li>Create a document in your workspace with the title “Plan A” with the
+sketch of your first lean canvas</li>
+</ul>
+</div>
+</div>
+<div id="c.-conduct-problem-interviews" class="section level2">
+<h2>C. Conduct Problem Interviews</h2>
+<p>After you have created your first lean canvas it is time to start
+conducting your first interviews.</p>
+<p>The Problem interview is all about validating your hypotheses around
+the “problem-customer segment” pair. In the Problem interview, you are
+specifically looking to tackle the following risks:</p>
+<ul>
+<li><p>Product risk: What are you solving? (Problem) How do customers
+rank the top three problems?</p></li>
+<li><p>Market risk: Who is the competition? (Existing Alternatives) How
+do customers solve these problems today?</p></li>
+<li><p>Customer risk: Who has the pain? (Customer Segments) Is this a
+viable customer segment?</p></li>
+</ul>
+<p>Follow the steps outlined in <a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean - Chapter 7: The Problem Interview</a>. In particular, follow the
+script shown in Figure 7-3.</p>
+<div id="deliverables-2" class="section level3">
+<h3><strong>Deliverables</strong></h3>
+<ul>
+<li>Create a document in your workspace with the title “Problem
+Interviews” where you document the findings of your interviews.
+<strong>You need to do interviews with at least 5 customers (more is
+better)</strong>. For each customer, use the template shown on page 89
+of <a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean</a>. In particular, follow the script shown in Figure 7-3.</li>
+</ul>
+</div>
+</div>
+<div id="d.-problem-interview-learnings" class="section level2">
+<h2>D. Problem Interview Learnings</h2>
+<p>After you have conducted your initial interviews, sit together with
+your team and discuss the findings. The goal of this conversation is to
+determine whether you:</p>
+<ul>
+<li><p>Can identify the demographics of an early adopter</p></li>
+<li><p>Have a must-have problem</p></li>
+<li><p>Can describe how customers solve this problem today</p></li>
+</ul>
+<p>If this is the case: great! If this is not the case: <strong>don’t
+worry</strong>. Repeat Step C until you have met all three conditions.
+This may imply that you need to focus on target customers/personas
+beyond those that you have interviewed until now.</p>
+<div id="deliverables-3" class="section level3">
+<h3><strong>Deliverables</strong></h3>
+<ul>
+<li><p>Create a document in your workspace with the title “Problem
+Interview Learnings” where you document what you have learned from the
+interviews. Use the template shown on pages 91-92 of <a
+href="(https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)">Running
+Lean</a> as an example.</p></li>
+<li><p>Update your “Customer Personas” document with the information
+from the interviews</p></li>
+<li><p>Create an updated version of your lean canvas based on your
+problem interview learnings and call it “Plan B”. You will likely have
+to change the “Solution” part next to the “Problem” and “Customer
+Segments” parts.</p></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
