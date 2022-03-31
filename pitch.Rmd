@@ -1,0 +1,18 @@
+---
+output: html_document
+---
+
+At the end of the course, you will have to pitch your business model to the rest of the class and instructors. This is always a fun way to round off the course, and a nice opportunity to see what your peers have come up with. Here a short indication of how this will go:
+
+* Each team gets ***two minutes*** to pitch their business model. You may decide how many people of your team will pitch, typically this is one or two. The pitch should be maximum two minutes, no more. I will keep strict timing during class. You may use 1 slide to visualize your product prototype, but no more. The use of a slide is optional.
+
+* The audience will act as potential investors. Everyone receives a hypothetical 100k euros which they can invest in the different teams after all the presentations.
+
+* After each pitch there will be time for some Q&A. I strongly encourage active participation from non-presenting teams during the Q&A.
+
+* Teams pitch in random order. I will not reveal the order before class.
+    
+* After all teams have pitched, we will democratically elect the best pitch/project. The winning team receives a prize.
+
+
+ 
