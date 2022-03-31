@@ -1,10 +1,6 @@
 ---
-output: html_document
+title: "Step 2: Problem"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Now that you know your team and have your working space set up, it's time to get started! The first step of the assignment will focus on testing and validating whether you have a problem worth solving.
 

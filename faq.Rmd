@@ -1,10 +1,6 @@
 ---
-output: html_document
+title: "FAQ"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ***How many customer interviews do we need to do?***
 

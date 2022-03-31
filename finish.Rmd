@@ -1,5 +1,5 @@
 ---
-output: html_document
+title: "Step 4: Finishing Things Up"
 ---
 
 Congratulations! You managed to come up with a business model centered around a discipline-related innovation, starting from a problem and working towards a solution . Whether this business model will turn out to be sustainable and scalable (or even profitable) is a question that is impossible to answer at this point. Typically, it takes at least [2 years](https://davidcummings.org/2018/08/04/why-product-market-fit-often-takes-years/) to find this out. However, you have taken your first steps in the wonderful world of startups.

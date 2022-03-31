@@ -1,10 +1,6 @@
 ---
-output: html_document
+title: "Background and Aim"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## What is Entrepreneurship? 
 Longtime Harvard Business School Professor Howard Stevenson, who jumpstarted the study of entrepreneurship in the 1980s, defined entrepreneurship as: "[The] pursuit of opportunity beyond resources currently controlled." Simply establishing a new enterprise is not enough. Succesful entrepreneurship requires ***value creation*** -- some group of customers must be made better off by the product, service, or platform you are building. Then, the most direct test of whether customers are made better off is whether they are willing to pay a positive price (ideally more than your costs!). This is what economist call **willingness to pay (WTP)**. If customers WTP > costs of production, then you have created positive value. 

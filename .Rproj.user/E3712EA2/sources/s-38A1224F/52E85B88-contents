@@ -1,10 +1,6 @@
 ---
-output: html_document
+title: "Step 1: Getting Started"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 You now know that the main tasks of startups is to look for a sustainable and scalable business model. This is what you will be doing with a team of other students. Essentially you will form a startup for the next weeks. 
 

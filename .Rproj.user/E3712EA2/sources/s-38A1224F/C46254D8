@@ -3,7 +3,7 @@
     "path": "C:/Users/jeroe/Dropbox/VU teaching/Lean Project/materials.Rmd",
     "project_path": "materials.Rmd",
     "type": "r_markdown",
-    "hash": "2821951063",
+    "hash": "2452799572",
     "contents": "",
     "dirty": false,
     "created": 1648656314440.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,84",
+        "cursorPosition": "1,18",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1648656504,
+    "lastKnownWriteTime": 1648712179,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1648656504559,
+    "last_content_update": 1648712179339,
     "read_only": false,
     "read_only_alternatives": []
 }
