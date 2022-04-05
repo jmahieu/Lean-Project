@@ -18,11 +18,11 @@ During this stage, we attempt to answer these questions using a combination of q
 
 ## Preparation
 * [The Lean Product Playbook - Chapter 3: Determine Your Target Customer (Step 1)](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
-* [Running Lean - Chapter 3: Create Your Lean Canvas ](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+* [Running Lean - Chapter 3: Create Your Lean Canvas ](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
 * [The Mom Test - Chapter One](https://github.com/jmahieu/Lean-Project/raw/main/The%20Mom%20Test%20-%20Rob%20Fitzpatrick.pdf)
 * [The Mom Test - Chapter Two](https://github.com/jmahieu/Lean-Project/raw/main/The%20Mom%20Test%20-%20Rob%20Fitzpatrick.pdf)
-* [Running Lean - Chapter 6: Get Ready to Interview Customers ]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf))
-* [Running Lean - Chapter 7: The Problem Interview ]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf))
+* [Running Lean - Chapter 6: Get Ready to Interview Customers ](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+* [Running Lean - Chapter 7: The Problem Interview ](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
 
 ## A. Brainstorm Possible Customers 
 *Individually*, brainstorm about the list of possible target customers based on your initial idea. When thinking about potential initial customers, you want to focus on "innovators" and "early adopters" (see [The Lean Product Playbook - Chapter 3: Determine Your Target Customer (Step 1)](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf) )
@@ -44,7 +44,7 @@ Afterwards, sit together with your team and compare the customer personas you ca
 
 ## B. Document Your Plan A
 
-After creating and choosing your preferred customer persona(s), each team member *individually* draws a Lean Canvas based on your chosen customer personas. Follow the steps in [Running Lean - Chapter 3: Create Your Lean Canvas ]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)). It is okay to leave some spaces blank. This should take no longer than 15 minutes. 
+After creating and choosing your preferred customer persona(s), each team member *individually* draws a Lean Canvas based on your chosen customer personas. Follow the steps in [Running Lean - Chapter 3: Create Your Lean Canvas ](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf). It is okay to leave some spaces blank. This should take no longer than 15 minutes. 
 
 You can use this [editable version of the Lean Canvas](https://github.com/jmahieu/Lean-Project/blob/main/lean-canvas.ppt?raw=true) in Powerpoint format
 
@@ -69,10 +69,10 @@ How do customers solve these problems today?
 * Customer risk: Who has the pain? (Customer Segments)
 Is this a viable customer segment?
 
-Follow the steps outlined in [Running Lean - Chapter 7: The Problem Interview ]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)). In particular, follow the script shown in Figure 7-3. 
+Follow the steps outlined in [Running Lean - Chapter 7: The Problem Interview ](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf). In particular, follow the script shown in Figure 7-3. 
 
 ### **Deliverables** 
-* Create a document in your workspace with the title "Problem Interviews" where you document the findings of your interviews. **You need to do interviews with at least 5 customers (more is better)**. For each customer, use the template shown on page 89 of [Running Lean]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)). In particular, follow the script shown in Figure 7-3.
+* Create a document in your workspace with the title "Problem Interviews" where you document the findings of your interviews. **You need to do interviews with at least 5 customers (more is better)**. For each customer, use the template shown on page 89 of [Running Lean](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf). In particular, follow the script shown in Figure 7-3.
 
 ## D. Problem Interview Learnings
 
@@ -87,7 +87,7 @@ After you have conducted your initial interviews, sit together with your team an
 If this is the case: great! If this is not the case: **don't worry**. Repeat Step C until you have met all three conditions. This may imply that you need to focus on target customers/personas beyond those that you have interviewed until now. 
 
 ### **Deliverables** 
-* Create a document in your workspace with the title "Problem Interview Learnings" where you document what you have learned from the interviews. Use the template shown on pages 91-92 of [Running Lean]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)) as an example. 
+* Create a document in your workspace with the title "Problem Interview Learnings" where you document what you have learned from the interviews. Use the template shown on pages 91-92 of [Running Lean](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf) as an example. 
 
 * Update your "Customer Personas" document with the information from the interviews
 

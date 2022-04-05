@@ -8,8 +8,8 @@ You now know that the main tasks of startups is to look for a sustainable and sc
 
 To achieve the goal of the assignment, you will rely on a mix of tools that have been proven to be very successful in finding out how to create and capture value under conditions of extreme uncertainty and limited resources. In particular, you are going to rely on a mix of Customer Development, Lean Startup, and Agile Development tools. It is very important that you first understand what these tools are and how you can use them. Therefore, you need to go through the following readings: 
 
-1. [Running Lean - Introduction](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
-1. [Running Lean - Part 1: Roadmap](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+1. [Running Lean - Introduction](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+1. [Running Lean - Part 1: Roadmap](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
 1. [The Lean Product Playbook - Introduction](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
 1. [The Lean Product Playbook - Chapter 1: Achieving Product-market Fit with the Lean Product Process](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
 
