@@ -1,27 +1,27 @@
 {
-    "id": "632F76DC",
-    "path": "C:/Users/jeroe/Dropbox/VU teaching/Lean Project/getting-started.Rmd",
-    "project_path": "getting-started.Rmd",
+    "id": "30854A20",
+    "path": "C:/Users/jeroe/Dropbox/VU teaching/Lean Project/solution.Rmd",
+    "project_path": "solution.Rmd",
     "type": "r_markdown",
-    "hash": "1515638333",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1648804706839.0,
+    "created": 1648804730103.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,3",
-        "scrollLine": "9"
+        "cursorPosition": "30,0",
+        "scrollLine": "20"
     },
     "folds": "",
-    "lastKnownWriteTime": 1648712169,
+    "lastKnownWriteTime": 1649156476,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1648712169,
+    "last_content_update": 1649156476,
     "read_only": false,
     "read_only_alternatives": []
 }

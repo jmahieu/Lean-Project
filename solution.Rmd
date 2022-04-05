@@ -26,7 +26,7 @@ What price will they bear?
 * [The Lean Product Playbook - Chapter 5: Define Your Value Propositiont](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
 * [The Lean Product Playbook - Chapter 6: Specify Your Minimum Viable Product (MVP) Feature Set](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
 * [The Lean Product Playbook - Chapter 7: Create Your MVP Prototype](https://github.com/jmahieu/Lean-Project/raw/main/The%20Lean%20Product%20Playbook%20-%202015%20-%20Olsen.pdf)
-* [Running Lean - Chapter 8: The Solution Interview](https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
+* [Running Lean - Chapter 8: The Solution Interview](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)
 
 <br />
 
@@ -101,7 +101,7 @@ Follow the [Solution Interview Script](https://github.com/jmahieu/Lean-Project/r
 Regarding pricing, also take a look at pages 180-183.
 
 ### **Deliverables** 
-* Create a document in your workspace with the title "Solution Interviews" where you document the findings of your interviews. **You need to do interviews with at least 5 customers (more is better)**. For each customer, use the template shown on page 107 of [Running Lean]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)).
+* Create a document in your workspace with the title "Solution Interviews" where you document the findings of your interviews. **You need to do interviews with at least 5 customers (more is better)**. For each customer, use the template shown on page 107 of [Running Lean](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf).
 
 <br />
 
@@ -122,7 +122,7 @@ If this is the case: great! If this is not the case: **don't worry**. Many start
 
 ## **Deliverables** 
 
-* Create a document in your workspace with the title "Solution Interview Learnings" where you document what you have learned from the interviews. Use the template shown on pages 109-110 of [Running Lean]((https://github.com/jmahieu/Lean-Project/raw/main/%5BLean%20Series%5D%20Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf)) as an example. In particular, discuss whether you believe you are on the right track to achieve product-market fit or whether you need to drastically change your plan (and why)
+* Create a document in your workspace with the title "Solution Interview Learnings" where you document what you have learned from the interviews. Use the template shown on pages 109-110 of [Running Lean](https://github.com/jmahieu/Lean-Project/raw/main/Ash%20Maurya%20-%20Running%20Lean%20(2nd%20edition).pdf) as an example. In particular, discuss whether you believe you are on the right track to achieve product-market fit or whether you need to drastically change your plan (and why)
 
 ## Further Readings and Background Material
 
